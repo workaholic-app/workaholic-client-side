@@ -5,14 +5,15 @@
   "scripts": {
     "start:dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
     "build:dev": "cross-env NODE_ENV=development webpack --env=development",
-    "build:production": "cross-env NODE_ENV=production webpack --env=production",
+    "build:production": "cross-env NODE_ENV=production webpack --env=production"
   },
   "dependencies": {
     "file-loader": "^3.0.1",
     "stylelint-webpack-plugin": "^0.10.5",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
-    "vue-router": "^3.0.3"
+    "vue-router": "^3.0.3",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",
@@ -23,10 +24,10 @@
     "clean-webpack-plugin": "^2.0.2",
     "core-js": "^2.6.5",
     "css-loader": "^2.1.1",
-    "eslint-loader": "^2.1.2",
-    "favicons-webpack-plugin": "^0.0.9",
     "eslint": "^5.16.0",
+    "eslint-loader": "^2.1.2",
     "eslint-plugin-vue": "^5.0.0",
+    "favicons-webpack-plugin": "^0.0.9",
     "html-webpack-harddisk-plugin": "^1.0.1",
     "html-webpack-plugin": "^3.2.0",
     "imagemin-webpack-plugin": "^2.4.2",
@@ -39,8 +40,8 @@
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.2",
     "webpack-dev-middleware": "^3.7.0",
-    "webpack-hot-middleware": "^2.25.0",
     "webpack-dev-server": "^3.4.1",
+    "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^4.2.1"
   }
 }
