@@ -67,35 +67,9 @@ const commonConfig = {
       {
         test: /\.(scss|css)$/,
         use: [
-          NODE_ENV === 'development'
-            ? {
-                loader: 'vue-style-loader',
-              }
-            : MiniCssExtractPlugin.loader,
-          {
-            loader: 'css-loader',
-            options: {
-              camelCase: true,
-              // importLoaders: 2,
-              modules: true,
-              sourceMap: true,
-              url: false,
-            },
-          },
-          {
-            loader: 'postcss-loader',
-            options: {
-              sourceMap: true,
-            },
-          },
-          {
-            loader: 'sass-loader',
-            options: {
-              sourceMap: true,
-              outputStyle: 'expanded',
-              includePaths: [path.resolve(__dirname, 'src/styles')],
-            },
-          },
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader'
         ],
 			},
 			{
