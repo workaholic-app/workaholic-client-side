@@ -20,10 +20,10 @@ export default {
 nav {
   height: 8vh;
   width: 100%;
-  background: #e4ebf1;
+  background: #FFF;
 }
 
-div {
+ .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
