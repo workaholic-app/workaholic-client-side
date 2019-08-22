@@ -7,7 +7,7 @@
 import Tasks from "@/components/Tasks.vue";
 
 export default {
-  name: "TasksModal",
+  name: "TasksView",
   components: {
     Tasks
   }

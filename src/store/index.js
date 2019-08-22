@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import todoModule from './modules/todo/index.js';
+import tasksModule from './modules/tasks/index.js';
 
 Vue.use(Vuex);
 
@@ -10,7 +10,7 @@ const store = new Vuex.Store({
         count: 0
     },
     modules: {
-        todo: todoModule
+        tasks: tasksModule
     }
 });
 

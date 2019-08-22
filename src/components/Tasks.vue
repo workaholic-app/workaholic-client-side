@@ -6,7 +6,20 @@
 
 <script>
 export default {
-  name: "Tasks"
+  name: "Tasks",
+  methods: {
+     newTask() {
+       this.$store
+        .dispatch('addNewTask', {
+          taskContent:"Hello world", 
+          checked: false
+         });
+       console.log("added new task");
+     }
+  },
+  mounted() {
+    this.newTask();
+  }
 };
 </script>
 

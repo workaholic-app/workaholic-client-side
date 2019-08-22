@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import DashboardView from './views/DashboardView.vue'
-import TasksModal from './views/TasksModal.vue'
+import TasksView from './views/TasksView.vue'
+import HealthView from './views/HealthView.vue'
 
 Vue.use(Router)
 
@@ -19,7 +20,11 @@ export default new Router({
         },
         {
           path: 'tasks',
-          component: TasksModal
+          component: TasksView
+        },
+        {
+          path: 'health',
+          component: HealthView
         }
       ]
     },
