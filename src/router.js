@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import HomeView from './components/Home.vue'
+import TasksModal from './views/TasksModal.vue'
 
 Vue.use(Router)
 
@@ -9,7 +11,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      children: [
+        {
+          path: 'home',
+          component: HomeView
+        },
+        {
+          path: 'tasks',
+          component: TasksModal
+        }
+      ]
     },
     {
       path: '/about',
