@@ -1,0 +1,24 @@
+$text-color: #364c59;
+
+* {
+  // font-family: "DM Sans", sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body {
+  margin: 0;
+  background: #ebf0f5;
+}
+
+.app {
+  width: 100%;
+  height: calc(100vh - 8vh);
+  position: relative;
+}
