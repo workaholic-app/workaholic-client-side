@@ -11,7 +11,7 @@ npm run dev
 ```
 
 
-##(The following don't work yet)
+## (The following don't work yet)
 
 ### Compiles for development
 ```
