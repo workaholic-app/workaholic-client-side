@@ -2,13 +2,16 @@
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run start:dev
+npm run dev
 ```
+
+
+## (The following don't work yet)
 
 ### Compiles for development
 ```
@@ -20,7 +23,6 @@ yarn run build:dev
 yarn run build:production
 ```
 
-(The following don't work yet)
 ### Run your tests
 ```
 yarn run test

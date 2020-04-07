@@ -1,0 +1,29 @@
+.dashboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  display: grid;
+  grid-template-columns: calc(30% - 13.3px) calc(40% - 13.3px) calc(
+      30% - 13.3px
+    );
+  grid-column-gap: 20px;
+}
+
+.col-2 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: calc(50% - 10px) calc(50% - 10px);
+  grid-row-gap: 20px;
+}
+
+.col-3 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: calc(30% - 13.3px) calc(30% - 13.3px) calc(40% - 13.3px);
+  grid-row-gap: 20px;
+}
