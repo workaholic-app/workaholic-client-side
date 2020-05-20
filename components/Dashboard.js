@@ -1,9 +1,9 @@
 import Activity from './Activity';
 import Screentime from './Screentime';
 import Health from './Health';
-import Tasks from './TasksContainer';
+import Tasks from './TasksCardContainer';
 import Water from './Water';
-import Notes from './Notes';
+import Notes from './NotesCardContainer';
 import styles from './Dashboard.module.scss';
 
 const Dashboard = () => {
