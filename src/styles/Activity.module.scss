@@ -1,3 +1,77 @@
+@import "__vars";
+
 .activity {
   background: #fff;
+}
+
+.activity-divider {
+  margin: 12px 0;
+  width: 100%;
+  border-bottom: 1px solid $grey-outline;
+}
+
+.next-activity {
+  margin: 20px 0;
+  &__head {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__media {
+    width: 100%;
+    height: 200px;
+    background-color: #FBEDE0;
+    border-radius: 4px;
+    margin: 12px 0;
+  }
+
+  &__description {
+    margin-top: 20px;
+    line-height: 1.25;
+  }
+
+  &__actions {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  &__button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+
+    &--skip { }
+    &--complete { 
+      background-color: $color-primary; 
+      margin-right: 12px; 
+      color: #fff;
+    }
+  }
+}
+
+.upcoming-activities{
+  &__title {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    margin-bottom: 20px;
+  }
+
+  &__activity {
+    display: flex;
+    margin-bottom: 12px;
+
+    &__snapshot {
+      width: 40%;
+      height: 92px;
+      background-color: #FBC1C8;
+      border-radius: 4px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 20px;
+    }
+  }
 }

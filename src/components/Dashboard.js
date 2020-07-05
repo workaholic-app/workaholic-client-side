@@ -11,15 +11,15 @@ const Dashboard = () => {
   return (
     <div className={"app"}>
       <div className={styles.dashboard}>
-        <Tasks />
+        <div className={styles["col-2"]}>
+          <Tasks />
+          <Notes />
+        </div>
+        <Activity />
         <div className={styles["col-2"]}>
           <Screentime />
-          <Activity />
-        </div>
-        <div className={styles["col-3"]}>
           <Health />
-          <Water />
-          <Notes />
+          {/* <Water /> */}
         </div>
       </div>
     </div>

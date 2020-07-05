@@ -15,8 +15,6 @@
     display: flex;
     justify-content: space-between;
 
-    &--striked {
-      text-decoration: line-through;
-    }
+    &--striked { text-decoration: line-through; }
   }
 }
