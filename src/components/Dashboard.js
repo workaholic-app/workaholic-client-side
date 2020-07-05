@@ -1,5 +1,5 @@
 import React from "react";
-import Activity from './Activity';
+import Activity from './ActivityCard';
 import Screentime from './Screentime';
 import Health from './Health';
 import Tasks from './TasksCard';
