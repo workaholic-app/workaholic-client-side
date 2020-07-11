@@ -1,7 +1,9 @@
+@import "__vars";
+
 .nav {
   height: 8vh;
   width: 100%;
-  background: #FFF;
+  background: $grey;
 }
 
 .wrapper {

@@ -1,3 +1,9 @@
+@import "__vars";
+
 .health {
-  background: #fff;
+  background: $primary-pastel;
+
+  p.card-title {
+    color: $text-primary !important;
+  }
 }

@@ -16,7 +16,7 @@
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: calc(50% - 10px) calc(50% - 10px);
+  grid-template-rows: calc(65% - 10px) calc(35% - 10px);
   grid-row-gap: 20px;
 }
 
@@ -24,6 +24,6 @@
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: calc(30% - 13.3px) calc(30% - 13.3px) calc(40% - 13.3px);
+  grid-template-rows: calc(35% - 10px) calc(65% - 10px);
   grid-row-gap: 20px;
 }
